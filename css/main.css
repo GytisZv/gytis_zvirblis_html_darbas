@@ -82,7 +82,7 @@
 }
 .upsell_prop {
   width: 100%;
-  /* used cssgradient.io */
+  margin-top: 50px;
   background-image: url(./background.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,4 +173,38 @@ upsell_text {
   text-transform: uppercase;
   color: #777777;
   font-size: 12px;
+}
+
+/* Upsell_footer_img */
+
+.upsell_footer {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 2000px;
+}
+.upsell_footer_prop {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.upsell_footer_img {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.upsell_footer_img img {
+  margin: auto;
+}
+
+.upsell_footer_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 45%;
+}
+
+.upsell_footer_info h2 {
+  font-size: 40px;
+  font-weight: 900;
 }
