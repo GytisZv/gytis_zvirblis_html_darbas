@@ -98,3 +98,12 @@ upsell_text {
   font-size: 20px;
   font-weight: 400;
 }
+
+/* Press properties */
+
+.press_prop {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
