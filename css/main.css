@@ -26,6 +26,11 @@
   font-weight: 600;
   margin-top: 40px;
 }
+
+.section_heading {
+  font-size: 40px;
+  font-weight: 500;
+}
 /* Header properties (prop) */
 
 .header_prop {
@@ -90,10 +95,6 @@
   border-radius: 10px;
 }
 
-.upsell_heading {
-  font-size: 40px;
-  font-weight: 500;
-}
 upsell_text {
   font-size: 20px;
   font-weight: 400;
@@ -106,4 +107,70 @@ upsell_text {
   display: flex;
   justify-content: space-between;
   margin-bottom: 120px;
+}
+
+/* Showcase items */
+
+.showcase_prop {
+}
+
+.showcase_info {
+  margin-bottom: 56px;
+}
+
+.showcase_items {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.showcase_item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #eeeeee;
+}
+.showcase_item_info {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 24px;
+}
+.showcase_item_info img {
+  max-height: 100%;
+}
+.showcase_item_img {
+}
+.showcase_item_info_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sc_item_series {
+  text-transform: uppercase;
+  color: #ff8139;
+  font-size: 12px;
+}
+.sc_item_name_price {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sc_item_number_days {
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.showcase_item_info_right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sc_item_bid {
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 12px;
 }
