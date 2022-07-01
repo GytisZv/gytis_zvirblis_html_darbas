@@ -1,0 +1,24 @@
+/* Main properties */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header properties */
+
+.header_prop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+.header_nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 28px;
+}
