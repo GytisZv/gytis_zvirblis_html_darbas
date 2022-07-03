@@ -8,19 +8,25 @@
   }
 
   /* hero */
+  .hero {
+    background-image: url(../assets/graphic.png);
+    background-position: 200px -40px;
+
+    background-size: 400px;
+    background-repeat: no-repeat;
+  }
+  .hero_prop {
+    margin-top: 20px;
+    padding-top: 50px;
+  }
   .hero_info h1 {
     font-size: 48px;
   }
   .hero_info {
-    flex-basis: 75%;
+    flex-basis: 80%;
   }
   .hero_img {
-    flex-basis: 25%;
-    overflow: hidden;
-  }
-  .hero_img img {
-    min-width: 200px;
-    position: relative;
+    display: none;
   }
 
   /* Upsell */
